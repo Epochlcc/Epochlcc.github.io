@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>用vscode写hexo博客</title>
+      <link href="/2024/08/11/hexoxiebokexuzhi/"/>
+      <url>/2024/08/11/hexoxiebokexuzhi/</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在写md文件之前，建议先学习一下md语法和搭建好写md的语言环境，尤其是关于插入图片这一方面的（这里推荐使用<strong>pinpix</strong>截图工具）。本文将会帮助你用<strong>vscode</strong>和相关的插件写md文件，但md语法并不会写在这里，请另外搜寻。</p><h2 id="一、vscode的推荐插件"><a href="#一、vscode的推荐插件" class="headerlink" title="一、vscode的推荐插件"></a>一、vscode的推荐插件</h2><p>   写MD的文件一般推荐使用，但我个人时使用vscode加相关插件。如果你也想使用vscode写md文件，我强力推荐你安装如下插件。<br>   1、<strong>Markdown All in One</strong><br>   <img src="/2024/08/11/hexoxiebokexuzhi/2024-08-11-13-18-31.png" alt="Markdown All in One"><br>   是vscode写Markdown语言的必装插件：包含了键盘快捷键，自动预览等等。<br>   ![快捷键]hexoxiebokexuzhi&#x2F;PixPin_2024-08-11_13-30-15.png)<br>   2、<strong>Markdown Preview Enhanced</strong><br>   <img src="/2024/08/11/hexoxiebokexuzhi/2024-08-11-13-19-26.png" alt="Markdown Preview Enhanced"><br>   点击右上角的的按键，即可预览md文件的效果<br>   <img src="/2024/08/11/hexoxiebokexuzhi/2024-08-11-13-21-27.png">  <img src="/2024/08/11/hexoxiebokexuzhi/image-1.png" alt="预览"></p><p>   3、<strong>Paste Image</strong><br>   <img src="/2024/08/11/hexoxiebokexuzhi/image.png" alt="Paste Image"><br>   作用时，按住<strong>CTRL+ALT＋V</strong>将图片复制到md文件中</p><h2 id="二、-config设置"><a href="#二、-config设置" class="headerlink" title="二、_config设置"></a>二、_config设置</h2><p>   打开blog根目录的config文件，找到 <strong>post_asset_folder</strong> 一项，将flase改为true，这样一来在新建md文件后，会自动生成一个同名文件夹，我个人喜欢将图片保存到此处。（注意新建文件时最好不要出现中文）<br>   <img src="/2024/08/11/hexoxiebokexuzhi/PixPin_2024-08-11_13-02-04.png" alt="config"><br>   <img src="/2024/08/11/hexoxiebokexuzhi/PixPin_2024-08-11_13-39-28.png" alt="config"></p><h2 id="三、截图工具pinpix"><a href="#三、截图工具pinpix" class="headerlink" title="三、截图工具pinpix"></a>三、截图工具pinpix</h2><p>   初次使用前先点击pinpix启动 &gt;&gt; 打开任务栏 &gt;&gt; 鼠标右键点击 &gt;&gt; 打开配置勾选开机自启动，这样方便以后日常使用。截图后，点击最右侧的选项（复制并关闭），按住<strong>CTRL+ALT＋V</strong>将图片地址复制到md文档中。<br>   <img src="/2024/08/11/hexoxiebokexuzhi/2024-08-11-13-15-33.png" alt="配置">   <img src="/2024/08/11/hexoxiebokexuzhi/2024-08-11-13-16-05.png" alt="开机自启动"><br>   但保存截图时，若显示，鼠标右键点击文件夹打开属性 &gt;&gt; 找到安全 &gt;&gt; 点击编辑 &gt;&gt; 将权限中的写入勾选上。<br>   <img src="/2024/08/11/hexoxiebokexuzhi/2024-08-11-13-11-49.png" alt="属性"><br>   具体操作及其功能，请自行移步至pinpix官网<a href="https://pixpinapp.com/">https://pixpinapp.com/</a>,这里不作详细介绍。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>搭建虚拟机</title>
       <link href="/2024/08/09/xuniji/"/>
       <url>/2024/08/09/xuniji/</url>
