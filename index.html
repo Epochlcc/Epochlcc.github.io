@@ -1,0 +1,365 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Welcome to my Pages</title><meta name="author" content="Epochlcc"><meta name="copyright" content="Epochlcc"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="Welcome to my Pages">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="Welcome to my Pages">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/image/1.jpg">
+<meta property="article:author" content="Epochlcc">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/image/1.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Welcome to my Pages',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-11-07 22:33:02'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>(()=>{
+  const $loadingBox = document.getElementById('loading-box')
+  const $body = document.body
+  const preloader = {
+    endLoading: () => {
+      $body.style.overflow = ''
+      $loadingBox.classList.add('loaded')
+    },
+    initLoading: () => {
+      $body.style.overflow = 'hidden'
+      $loadingBox.classList.remove('loaded')
+    }
+  }
+
+  preloader.initLoading()
+  window.addEventListener('load',() => { preloader.endLoading() })
+
+  if (false) {
+    document.addEventListener('pjax:send', () => { preloader.initLoading() })
+    document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+  }
+})()</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/image/1.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">8</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">2</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/image/2.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="Welcome to my Pages"><span class="site-name">Welcome to my Pages</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">Welcome to my Pages</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/Epochlcc/Epochlcc.github.io" target="_blank" title="Github"><i class="fab fa-github"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/10/21/aishiyongbiji/" title="ai使用心得">ai使用心得</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-10-21T15:25:49.704Z" title="发表于 2024-10-21 23:25:49">2024-10-21</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E5%BF%83%E5%BE%97/">心得</a></span></div><div class="content">前言&#x2F;局限性在我初步使用ai的过程中，我个人得出了一些心得：
+
+ai给出的结论不一定是正确的，针对ai回答的内容，需要有一定的鉴别能力
+
+ai给出的回答不一定与预期完全相符，这就需要给ai模板让它模范学习
+
+chatgbt是大语言模型，对专业做题方面能力不足，只能给一些常见的思路
+
+chatgbt的数据库截止到2021年，在该时间节点后的内容chatgbt是没办法知道的
+
+提问ai的时候要用肯定句而非否定句，例如：将回答不要用文段形式改为回答用表格形式
+
+
+
+常见ai
+国内ai
+
+百度： 文心一言
+
+阿里： 通义ai
+
+字节跳动：豆包
+
+科大讯飞：讯飞星火
+……
+
+
+
+国外ai
+
+OpenAI：ChatGPT
+Google：Bard
+Microsoft：Copilo
+
+
+
+​		…..
+
+如何提问在提问ai之前，我强烈推荐你先阅读一下《提问的智慧》 这篇文章，这篇文章涵盖了提问的要领，它的用处不仅仅在ai提问上，更在与人的提问。
+[原文链接](How To Ask Questions The Smart Way)
+[中文译本](ryanhanwu&#x2F;How-To-As ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/10/05/vimbiji/" title="vim使用笔记——蛋老师视频总结">vim使用笔记——蛋老师视频总结</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-10-04T16:13:40.000Z" title="发表于 2024-10-05 00:13:40">2024-10-05</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E7%AC%94%E8%AE%B0/">笔记</a></span></div><div class="content">模式模式分类
+正常模式（Normal Mode）：用于浏览或是宏观处理文本
+打开vim之后，就是正常模式，想要进入编辑模式点击i键
+
+编辑模式（Insert Mode）：用于添加或是擅改文字
+在此模式下对文本进行编辑，编辑完点击ESC退出编辑模式，返回正常模式 
+
+命令模式：用于保存退出或是搜索等
+想要退出vim就要到命令模式，命令模式就是可以输入命令来指示是否要保存或是退出等等
+
+视觉模式：
+
+
+模式的切换i——正常模式进入编辑模式
+esc——编辑模式退出到正常模式
+：——正常模式进入到命令模式
+基础应用编辑
+新建
+
+先关闭大写锁定，想打开或是新建一个文件就直接输入vim+文件名即可，例如vim ab.c就会打开文件ab
+我们打开一个文件，vim的模式在文件下方是有提示的，例如编辑模式就是INSERT，命令模式是：
+ 2.保存
+进入命令模式后，点击q！（小写，quit）即为不保存退出；输入wq（write quit），即为保存并退出
+
+编辑
+
+
+光标移动到当前行，输入yy（yank），即可复制这一行，
+
+复制一个单词输入yw（yank word）
+
+
+到需要粘贴行数，输入p（past ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/08/31/mdyufa/" title="MarkDown语法笔记">MarkDown语法笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-08-31T14:31:02.000Z" title="发表于 2024-08-31 22:31:02">2024-08-31</time></span><span class="article-meta tags"><span class="article-meta-separator">|</span><i class="fas fa-tag"></i><a class="article-meta__tags" href="/tags/%E7%AC%94%E8%AE%B0/">笔记</a></span></div><div class="content">一、标题写法如下，，前有多少个**#**就代表是第几级标题
+ 一级标题#一级标题## 二级标题### 三级标题#### 四级标题##### 五级标题###### 六级标题
+注意# 后要空一个才是标题
+二、段落无序段落写法是在内容前加上 + 或 * 或 - ，三个符号效果一至
++ a//形式一- b//形式二* c//形式三
+
+1
+
+
+2
+
+有序段落 内容在前面加上**数字和.(英文字符)**即可，例如 1. 2.
+段落的嵌套使用可以在有序列表中嵌套新的有序列表，也可以在无序列表中嵌套新的无序列表。使用是在嵌套列表前，按住TAB 或是 空格 即可
+三、换行在一行的末尾添加两个或多个空格，然后按回车键,即可换行 
+1  
+2
+四、引用说明类似标题，在于引用内容前加上 &gt; ，有多少个 &gt; 就表示 几级引用。引用说明区块还可以嵌套使用
+&gt;一级&gt;&gt;二级&gt;&gt;&gt;三级&gt;&gt;&gt;&gt;四级&gt;&gt;&gt;&gt;&gt;五级&gt;&gt;&gt;&gt;&gt;&gt;六级
+
+
+
+
+一级引用
+
+二级引用
+
+三级引用
+
+四级引用
+
+ ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/08/31/pwnxuexirumen/" title="pwn学习心得">pwn学习心得</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-08-31T07:27:25.000Z" title="发表于 2024-08-31 15:27:25">2024-08-31</time></span></div><div class="content">c语言c标准库 c标准库包含了一组头文件，这些头文件提供了许多函数和宏，用于处理输入输出、字符串操作、数学计算、内存管理等常见编程任务。 若要使用C标准语言库中的函数，首先需要包含相应的头文件。例如，如果要调用printf函数，程序中需包含&lt;stdio.h&gt;头文件。
+ #include &lt;stdio.h&gt;int main ()&#123;printf(&quot;hello world&quot;);return 0;&#125;
+ c标准库大致分为如下几类  输入输出操作 如&lt;stdio.h&gt;  字符串处理  如&lt;string.h&gt;  数学计算  如&lt;math.h&gt;  内存管理  如&lt;stdlib.h&gt;  时间处理  如&lt;time.h&gt;  所以头文件的功能如下图所示如需更详细了解可去https://www.runoob.com/cprogramming/c-standard-library.html
+
+c语言不安全函数
+gets
+
+gets读取用户输入文本，但gets不会检查缓冲区大小，这很有可能导致 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/08/11/hexoxiebokexuzhi/" title="用vscode写hexo博客">用vscode写hexo博客</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-08-10T16:47:41.000Z" title="发表于 2024-08-11 00:47:41">2024-08-11</time></span></div><div class="content">前言在写md文件之前，建议先学习一下md语法和搭建好写md的语言环境，尤其是关于插入图片这一方面的（这里推荐使用pinpix截图工具）。本文将会帮助你用vscode和相关的插件写md文件，但md语法并不会写在这里，请另外搜寻。
+一、vscode的推荐插件   写MD的文件一般推荐使用，但我个人时使用vscode加相关插件。如果你也想使用vscode写md文件，我强力推荐你安装如下插件。   1、Markdown All in One   
+
+
+
+快捷键
+效果
+
+
+
+ctrl + b
+加粗
+
+
+ctrl + i
+斜体
+
+
+ctrl + shift + [
+下一级标题
+
+
+ctrl + shift + ]
+上一级标题
+
+
+ctrl + M
+不换行数学公式
+
+
+Alt + S
+删除线
+
+
+   是vscode写Markdown语言的必装插件：包含了键盘快捷键，自动预览等等。      2、Markdown Preview Enhanced      点击右上角的的按键，即可预览md文件的效果      预览效果如下   
+   3、Paste Image      作用时，按住CTRL+AL ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/08/09/xuniji/" title="搭建虚拟机">搭建虚拟机</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-08-09T13:34:13.000Z" title="发表于 2024-08-09 21:34:13">2024-08-09</time></span></div><div class="content">  利用VMware来搭建ubuntu的虚拟机，我将在这篇博客记录下载过程以及个人心得。同时，我会将他人详细教程视频放在文末，如有兴趣可自行观看。
+一、下载VMware  先是到VMware的官网上下载软件，在安装完成后，点击许可证，输入密钥即可永久使用（自己找）。    随后，出现如下情款说明激活成功。    随后，下载ubuntu的光盘映像文件（我在文末附上的教学视屏有）。下载完后，准备阶段结束，进入下一阶段。
+二、自定义设置  进入虚拟机页面，打开文件&gt;&gt;打开新建虚拟机向导，出现如下弹窗，选择第二个自定义选项    下一步中，选择第三个选项    客户机操作系统选择Linux,Version选择ubuntu 64位。  随后依次自定义虚拟机各项属性，按照图片所示一一进行配置              
+三、网络配置检查和虚拟机设置  在打开虚拟机之前，先检查以太网网络配置，先打开windows的系统，找到网络和internet，打开高级网络设置，找到相关设置下的&gt;更多网络适配器设置。若出现如下弹窗显示已开启，则设置成功.      打开vm，找到左侧的设置，打开 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/08/05/dajiangerenboke/" title="搭建个人博客网站的心得">搭建个人博客网站的心得</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-08-05T02:42:43.000Z" title="发表于 2024-08-05 10:42:43">2024-08-05</time></span></div><div class="content">   这篇博客主要是为了记下我在搭建个人博客网站的心路历程与碰上的问题，也算是一个教程。我会在这篇文章简述我遇见的问题和解决办法，希望您在看完这篇博客的时候也有所感受。
+一、准备工作   搭建hexo个人博客之前，我们需要下载前置软件git和node.js。   git的官网是  https://git-scm.com/   node.js的官网是  http://nodejs.cn/。   但要注意一下node.js的版本最好下载稳定版。此外，我们还需要一个github的账号，注册好之后开始搭建博客的第一步。
+二、创建个人仓库  我们先打开gitthub，如图  随后，  建好后，准备安装git和Node.js,并配置node.js的环境。
+三、安装git和node.js 我们首先来安装git，相较于node.js的环境配置而言，安装则更简单。在安装完后，我们按住win＋r唤出运行窗口，输入cmd，然后输入以下命令，来检查是否安装成功，如有相应版本信息显示则安装成功。若未能出现版本信息，请重新安装。
+下载完后，打开node.js的文件夹，在该目录内新建两个文件夹，node_globa ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/08/05/hello-world/" title="Hello World">Hello World</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-08-05T02:23:11.547Z" title="发表于 2024-08-05 10:23:11">2024-08-05</time></span></div><div class="content">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+hello my blogQuick StartCreate a new post$ hexo new &quot;My New Post&quot;
+
+More info: Writing
+Run server$ hexo server
+
+More info: Server
+Generate static files$ hexo generate
+
+More info: Generating
+Deploy to remote sites$ hexo deploy
+
+More info: Deployment
+</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/image/1.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Epochlcc</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">8</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">2</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/Epochlcc/Epochlcc.github.io" target="_blank" title="Github"><i class="fab fa-github"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/10/21/aishiyongbiji/" title="ai使用心得">ai使用心得</a><time datetime="2024-10-21T15:25:49.704Z" title="发表于 2024-10-21 23:25:49">2024-10-21</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/10/05/vimbiji/" title="vim使用笔记——蛋老师视频总结">vim使用笔记——蛋老师视频总结</a><time datetime="2024-10-04T16:13:40.000Z" title="发表于 2024-10-05 00:13:40">2024-10-05</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/08/31/mdyufa/" title="MarkDown语法笔记">MarkDown语法笔记</a><time datetime="2024-08-31T14:31:02.000Z" title="发表于 2024-08-31 22:31:02">2024-08-31</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/08/31/pwnxuexirumen/" title="pwn学习心得">pwn学习心得</a><time datetime="2024-08-31T07:27:25.000Z" title="发表于 2024-08-31 15:27:25">2024-08-31</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/08/11/hexoxiebokexuzhi/" title="用vscode写hexo博客">用vscode写hexo博客</a><time datetime="2024-08-10T16:47:41.000Z" title="发表于 2024-08-11 00:47:41">2024-08-11</time></div></div></div></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E5%BF%83%E5%BE%97/" style="font-size: 1.1em; color: #999">心得</a> <a href="/tags/%E7%AC%94%E8%AE%B0/" style="font-size: 1.5em; color: #99a9bf">笔记</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/10/"><span class="card-archive-list-date">十月 2024</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/08/"><span class="card-archive-list-date">八月 2024</span><span class="card-archive-list-count">6</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">8</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2024-07-08T07:55:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">21k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-11-07T14:33:02.267Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By Epochlcc</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>window.typedJSFn = {
+  init: (str) => {
+    window.typed = new Typed('#subtitle', Object.assign({
+      strings: str,
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50,
+    }, null))
+  },
+  run: (subtitleType) => {
+    if (true) {
+      if (typeof Typed === 'function') {
+        subtitleType()
+      } else {
+        getScript('https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.min.js').then(subtitleType)
+      }
+    } else {
+      subtitleType()
+    }
+  }
+}
+</script><script>function subtitleType () {
+  if (true) {
+    typedJSFn.init(["涧树含朝雨 &#44; 山鸟弄餘春","疏影横斜水清浅 &#44; 暗香浮动月黄昏"])
+  } else {
+    document.getElementById("subtitle").textContent = "涧树含朝雨 &#44; 山鸟弄餘春"
+  }
+}
+typedJSFn.run(subtitleType)</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=4.13.0"></script></div></div></body></html>

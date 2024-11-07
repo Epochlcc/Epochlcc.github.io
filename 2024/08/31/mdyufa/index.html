@@ -1,0 +1,337 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>MarkDown语法笔记 | Welcome to my Pages</title><meta name="author" content="Epochlcc"><meta name="copyright" content="Epochlcc"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="一、标题写法如下，，前有多少个**#**就代表是第几级标题  一级标题#一级标题## 二级标题### 三级标题#### 四级标题##### 五级标题###### 六级标题 注意# 后要空一个才是标题 二、段落无序段落写法是在内容前加上 + 或 * 或 - ，三个符号效果一至 + a&#x2F;&#x2F;形式一- b&#x2F;&#x2F;形式二* c&#x2F;&#x2F;形式三  1   2  有序段落 内容在前面加上**数字和.(英文字符)**即可，">
+<meta property="og:type" content="article">
+<meta property="og:title" content="MarkDown语法笔记">
+<meta property="og:url" content="http://example.com/2024/08/31/mdyufa/index.html">
+<meta property="og:site_name" content="Welcome to my Pages">
+<meta property="og:description" content="一、标题写法如下，，前有多少个**#**就代表是第几级标题  一级标题#一级标题## 二级标题### 三级标题#### 四级标题##### 五级标题###### 六级标题 注意# 后要空一个才是标题 二、段落无序段落写法是在内容前加上 + 或 * 或 - ，三个符号效果一至 + a&#x2F;&#x2F;形式一- b&#x2F;&#x2F;形式二* c&#x2F;&#x2F;形式三  1   2  有序段落 内容在前面加上**数字和.(英文字符)**即可，">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/image/1.jpg">
+<meta property="article:published_time" content="2024-08-31T14:31:02.000Z">
+<meta property="article:modified_time" content="2024-10-10T12:53:35.532Z">
+<meta property="article:author" content="Epochlcc">
+<meta property="article:tag" content="笔记">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://example.com/image/1.jpg"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="http://example.com/2024/08/31/mdyufa/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'MarkDown语法笔记',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-10-10 20:53:35'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><div class="spinner-box"><div class="configure-border-1"><div class="configure-core"></div></div><div class="configure-border-2"><div class="configure-core"></div></div><div class="loading-word">加载中...</div></div></div><script>(()=>{
+  const $loadingBox = document.getElementById('loading-box')
+  const $body = document.body
+  const preloader = {
+    endLoading: () => {
+      $body.style.overflow = ''
+      $loadingBox.classList.add('loaded')
+    },
+    initLoading: () => {
+      $body.style.overflow = 'hidden'
+      $loadingBox.classList.remove('loaded')
+    }
+  }
+
+  preloader.initLoading()
+  window.addEventListener('load',() => { preloader.endLoading() })
+
+  if (false) {
+    document.addEventListener('pjax:send', () => { preloader.initLoading() })
+    document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+  }
+})()</script><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/image/1.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">8</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">2</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/image/2.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="Welcome to my Pages"><span class="site-name">Welcome to my Pages</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fa fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fa fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fa fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/messageboard/"><i class="fa-fw fa fa-paper-plane"></i><span> 留言板</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">MarkDown语法笔记</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-08-31T14:31:02.000Z" title="发表于 2024-08-31 22:31:02">2024-08-31</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-10-10T12:53:35.532Z" title="更新于 2024-10-10 20:53:35">2024-10-10</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">1.1k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>4分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="MarkDown语法笔记"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="一、标题"><a href="#一、标题" class="headerlink" title="一、标题"></a>一、标题</h1><p>写法如下，，前有多少个**#**就代表是第几级标题</p>
+ <figure class="highlight plaintext"><figcaption><span>一级标题</span></figcaption><table><tr><td class="code"><pre><span class="line">#一级标题</span><br><span class="line">## 二级标题</span><br><span class="line">### 三级标题</span><br><span class="line">#### 四级标题</span><br><span class="line">##### 五级标题</span><br><span class="line">###### 六级标题</span><br></pre></td></tr></table></figure>
+<p>注意# 后要空一个才是标题</p>
+<h1 id="二、段落"><a href="#二、段落" class="headerlink" title="二、段落"></a>二、段落</h1><h4 id="无序段落"><a href="#无序段落" class="headerlink" title="无序段落"></a>无序段落</h4><p>写法是在内容前加上 <strong>+ 或 * 或 -</strong> ，三个符号效果一至</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">+ a//形式一</span><br><span class="line"></span><br><span class="line">- b//形式二</span><br><span class="line"></span><br><span class="line">* c//形式三</span><br></pre></td></tr></table></figure>
+<ul>
+<li>1</li>
+</ul>
+<ul>
+<li>2</li>
+</ul>
+<h4 id="有序段落"><a href="#有序段落" class="headerlink" title="有序段落"></a>有序段落</h4><p> 内容在前面加上**数字和.(英文字符)**即可，例如<br> 1.<br> 2.</p>
+<h4 id="段落的嵌套使用"><a href="#段落的嵌套使用" class="headerlink" title="段落的嵌套使用"></a>段落的嵌套使用</h4><p>可以在有序列表中嵌套新的有序列表，也可以在无序列表中嵌套新的无序列表。<br>使用是在嵌套列表前，按住<strong>TAB</strong> 或是 <strong>空格</strong> 即可</p>
+<h1 id="三、换行"><a href="#三、换行" class="headerlink" title="三、换行"></a>三、换行</h1><p>在一行的末尾添加两个或多个空格，然后按回车键,即可换行 </p>
+<p>1  </p>
+<p>2</p>
+<h1 id="四、引用说明"><a href="#四、引用说明" class="headerlink" title="四、引用说明"></a>四、引用说明</h1><p>类似标题，在于引用内容前加上 &gt; ，有多少个 &gt; 就表示 几级引用。<br>引用说明区块还可以嵌套使用</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&gt;一级</span><br><span class="line">&gt;&gt;二级</span><br><span class="line">&gt;&gt;&gt;三级</span><br><span class="line">&gt;&gt;&gt;&gt;四级</span><br><span class="line">&gt;&gt;&gt;&gt;&gt;五级</span><br><span class="line">&gt;&gt;&gt;&gt;&gt;&gt;六级</span><br></pre></td></tr></table></figure>
+
+
+
+<blockquote>
+<p>一级引用</p>
+<blockquote>
+<p>二级引用</p>
+<blockquote>
+<p>三级引用</p>
+<blockquote>
+<p>四级引用</p>
+<blockquote>
+<p>五级引用</p>
+<blockquote>
+<p>六级引用</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+<h1 id="五、代码块"><a href="#五、代码块" class="headerlink" title="五、代码块"></a>五、代码块</h1><p>在代码首尾使**&#96;&#96;&#96;（英文字符）**按键在ESC下面 例如    </p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">```</span><br><span class="line">#include &lt;stdio.h&gt; </span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line"> printf(&quot;hehe\n&quot;);</span><br><span class="line"> return 0;   </span><br><span class="line">&#125;</span><br><span class="line">```</span><br></pre></td></tr></table></figure>
+
+   <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt; </span><br><span class="line"></span><br><span class="line">int main()&#123;</span><br><span class="line"> printf(&quot;hehe\n&quot;);</span><br><span class="line"> return 0;   </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<h1 id="六、链接"><a href="#六、链接" class="headerlink" title="六、链接"></a>六、链接</h1><p>名称的具体内容可以不用写，但我个人<strong>建议写上</strong>，方便日后检查。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">[Markdown语法](网址内容 &quot;最好的markdown教程&quot;)   </span><br><span class="line">或是    </span><br><span class="line">&lt;网址内容&gt;</span><br></pre></td></tr></table></figure>
+
+<p>两种写法效果不一样<br>  <a target="_blank" rel="noopener" href="https://markdown.com.cn/">Markdown语法</a><br>  <a target="_blank" rel="noopener" href="https://markdown.com.cn/basic-syntax/links.html">https://markdown.com.cn/basic-syntax/links.html</a>   </p>
+<h1 id="七、图片"><a href="#七、图片" class="headerlink" title="七、图片"></a>七、图片</h1><p>我个人认为图片是MD语法中对初学者最不友好的一类。<br>插入的图片分为两类：</p>
+<ul>
+<li>链接图片</li>
+<li>本地图片</li>
+</ul>
+<h4 id="链接图片写法"><a href="#链接图片写法" class="headerlink" title="链接图片写法"></a>链接图片写法</h4><pre><code>方法1：![图片说明](图片链接)
+方法2：&lt;img src=&quot;图片链接&quot;&gt;
+</code></pre>
+<h4 id="本地图片"><a href="#本地图片" class="headerlink" title="本地图片"></a>本地图片</h4><pre><code>  方法1：![图片说明](Images/test.jpg) 
+  //相对位置前一个是文件夹名，后一个是图片名  
+  方法2：&lt;img src=&quot;./Images/test.jpg&quot;&gt;  
+</code></pre>
+<h1 id="八、强调"><a href="#八、强调" class="headerlink" title="八、强调"></a>八、强调</h1><ul>
+<li><p>粗体</p>
+<ul>
+<li><p>在内容前后各自加上<strong>两个</strong>星号或是下划线，例如</p>
+</li>
+<li><pre><code>**粗体**
+__粗体__
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">      </span><br><span class="line">      **粗体**</span><br><span class="line">      __粗体__</span><br><span class="line">    </span><br><span class="line">+ 斜体</span><br><span class="line">    + 在内容前后添加**一个**星号或下划线，例如</span><br><span class="line">      </span><br><span class="line">    + ```</span><br><span class="line">      *斜体*</span><br><span class="line">      _斜体_</span><br></pre></td></tr></table></figure>
+
+*斜体*
+_斜体_
+</code></pre>
+</li>
+</ul>
+</li>
+<li><p>粗体+斜体</p>
+<ul>
+<li><p>在内容前后各添加<strong>三个</strong>星号，例如</p>
+</li>
+<li><pre><code>***粗体+斜体***
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">      </span><br><span class="line">      ***粗体+斜体***</span><br><span class="line">      </span><br><span class="line">      </span><br><span class="line">      </span><br><span class="line"></span><br><span class="line"></span><br><span class="line">+ 下划线</span><br><span class="line">  + 在内容前后各添加&lt;u&gt;和&lt;/u&gt;，例如</span><br><span class="line">  </span><br><span class="line">  + ```</span><br><span class="line">    &lt;u&gt;内容&lt;/u&gt;</span><br></pre></td></tr></table></figure>
+</code></pre>
+</li>
+<li><p><u>内容</u></p>
+</li>
+</ul>
+</li>
+<li><p>删除线</p>
+<ul>
+<li><p>在内容前后各添加<strong>两个</strong> ~~，例如</p>
+</li>
+<li><pre><code>~~内容~~
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">    </span><br><span class="line">  + </span><br><span class="line">    </span><br><span class="line">    ~~内容~~</span><br><span class="line">  </span><br><span class="line">+ 分割线</span><br><span class="line">   + 可用三个以上的**— * _**来建立一个分隔线，行内不能有其他内容。也可以在星号或是减号中间插入空格，例如：</span><br><span class="line"></span><br><span class="line">   + ```</span><br><span class="line">      ****</span><br><span class="line">      _____</span><br><span class="line">      _______</span><br></pre></td></tr></table></figure>
+
+  ***
+</code></pre>
+</li>
+</ul>
+</li>
+</ul>
+<h1 id="九、表格"><a href="#九、表格" class="headerlink" title="九、表格"></a>九、表格</h1><p>用 <strong>|</strong> 来分隔不同的单元格<br>用 <strong>-</strong> 来分隔表头和其他行</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>title1</th>
+<th>title2</th>
+<th>title3</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody></table>
+<p><img src="/2024/08/31/mdyufa/PixPin_2024-09-11_12-44-08.png" alt="表格"></p>
+<h1 id="十、其他"><a href="#十、其他" class="headerlink" title="十、其他"></a>十、其他</h1><ul>
+<li><p>字体</p>
+<ul>
+<li>字体类型的设置只能在电脑上才能显示字体效果，在手机上无法显示字体类型。<br> <font face="黑体">黑体</font><br><font face="宋体">宋体</font><br><font face="楷体">楷体</font><br><font face="华文行楷">华文行楷</font><br><font face="华文隶书">华文隶书</font><br><font face="华文新魏">华文新魏</font></li>
+</ul>
+ <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font face=&quot;黑体&quot;&gt;黑体&lt;/font&gt; </span><br><span class="line">&lt;font face=&quot;宋体&quot;&gt;宋体&lt;/font&gt; </span><br><span class="line">&lt;font face=&quot;楷体&quot;&gt;楷体&lt;/font&gt; </span><br><span class="line">&lt;font face=&quot;华文行楷&quot;&gt;华文行楷&lt;/font&gt;</span><br><span class="line">&lt;font face=&quot;华文肃书&quot;&gt;华文肃书&lt;/font&gt;</span><br><span class="line">&lt;font face=&quot;华文新魏&quot;&gt;华文新魏&lt;/font&gt;</span><br></pre></td></tr></table></figure>
+
+
+
+</li>
+<li><p>字体大小</p>
+<ul>
+<li><p>size为1：<font size="1">size为1</font><br>size为2：<font size="2">size为2</font><br>size为3：<font size="3">size为3</font><br>size为4：<font size="4">size为4</font></p>
+<p>size为6:<font size="5">size为5</font></p>
+<p>size为6：<font size="6">size为6</font></p>
+</li>
+</ul>
+ <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;font size=&quot;1&quot;&gt;size为1&lt;/font&gt;</span><br><span class="line">&lt;font size=&quot;2&quot;&gt;size为2&lt;/font&gt;</span><br><span class="line">&lt;font size=&quot;3&quot;&gt;size为3&lt;/font&gt;</span><br><span class="line">&lt;font size=&quot;4&quot;&gt;size为4&lt;/font&gt;</span><br><span class="line">&lt;font size=&quot;5&quot;&gt;size为5&lt;/font&gt;</span><br><span class="line">&lt;font size=&quot;6&quot;&gt;size为6&lt;/font&gt;</span><br></pre></td></tr></table></figure>
+
+
+</li>
+<li><p>背景颜色</p>
+<ul>
+<li>按照十六进制颜色值来设置背景颜色<table><tr><td bgcolor="#FF6347">红色</td></tr></table>  
+<table><tr><td bgcolor="#F4A460">橙色</td></tr></table> 
+<table><tr><td bgcolor="#FFD700">黄色</td></tr></table></li>
+</ul>
+</li>
+</ul>
+ <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;table&gt;&lt;tr&gt;&lt;td bgcolor=#FF6347&gt;红色&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;  </span><br><span class="line">&lt;table&gt;&lt;tr&gt;&lt;td bgcolor=#F4A460&gt;橙色&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; </span><br><span class="line">&lt;table&gt;&lt;tr&gt;&lt;td bgcolor=#FFD700&gt;黄色&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt; </span><br></pre></td></tr></table></figure>
+
+
+
+<p>如需更详细的了解MD语法，可去如下网站：<br><a target="_blank" rel="noopener" href="https://markdown.com.cn/basic-syntax/">https://markdown.com.cn/basic-syntax/</a>  </p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/weiCong_Ling/article/details/130895397?ops_request_misc=%257B%2522request%255Fid%2522%253A%252214C8A71E-CABA-4F94-AF9D-A37DFD91814C%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=14C8A71E-CABA-4F94-AF9D-A37DFD91814C&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~baidu_landing_v2~default-4-130895397-null-null.142%5Ev100%5Econtrol&utm_term=md%E8%AF%AD%E6%B3%95&spm=1018.2226.3001.4187a">CSDN</a></p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="http://example.com">Epochlcc</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="http://example.com/2024/08/31/mdyufa/">http://example.com/2024/08/31/mdyufa/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://example.com" target="_blank">Welcome to my Pages</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E7%AC%94%E8%AE%B0/">笔记</a></div><div class="post_share"><div class="social-share" data-image="/image/1.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2024/10/05/vimbiji/" title="vim使用笔记——蛋老师视频总结"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">vim使用笔记——蛋老师视频总结</div></div></a></div><div class="next-post pull-right"><a href="/2024/08/31/pwnxuexirumen/" title="pwn学习心得"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">pwn学习心得</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2024/10/05/vimbiji/" title="vim使用笔记——蛋老师视频总结"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-10-05</div><div class="title">vim使用笔记——蛋老师视频总结</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/image/1.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Epochlcc</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">8</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">2</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/Epochlcc/Epochlcc.github.io" target="_blank" title="Github"><i class="fab fa-github"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E6%A0%87%E9%A2%98"><span class="toc-number">1.</span> <span class="toc-text">一、标题</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E6%AE%B5%E8%90%BD"><span class="toc-number">2.</span> <span class="toc-text">二、段落</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%97%A0%E5%BA%8F%E6%AE%B5%E8%90%BD"><span class="toc-number">2.0.0.1.</span> <span class="toc-text">无序段落</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9C%89%E5%BA%8F%E6%AE%B5%E8%90%BD"><span class="toc-number">2.0.0.2.</span> <span class="toc-text">有序段落</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%AE%B5%E8%90%BD%E7%9A%84%E5%B5%8C%E5%A5%97%E4%BD%BF%E7%94%A8"><span class="toc-number">2.0.0.3.</span> <span class="toc-text">段落的嵌套使用</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E6%8D%A2%E8%A1%8C"><span class="toc-number">3.</span> <span class="toc-text">三、换行</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E5%BC%95%E7%94%A8%E8%AF%B4%E6%98%8E"><span class="toc-number">4.</span> <span class="toc-text">四、引用说明</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E4%BB%A3%E7%A0%81%E5%9D%97"><span class="toc-number">5.</span> <span class="toc-text">五、代码块</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%AD%E3%80%81%E9%93%BE%E6%8E%A5"><span class="toc-number">6.</span> <span class="toc-text">六、链接</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%83%E3%80%81%E5%9B%BE%E7%89%87"><span class="toc-number">7.</span> <span class="toc-text">七、图片</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%93%BE%E6%8E%A5%E5%9B%BE%E7%89%87%E5%86%99%E6%B3%95"><span class="toc-number">7.0.0.1.</span> <span class="toc-text">链接图片写法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87"><span class="toc-number">7.0.0.2.</span> <span class="toc-text">本地图片</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%85%AB%E3%80%81%E5%BC%BA%E8%B0%83"><span class="toc-number">8.</span> <span class="toc-text">八、强调</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B9%9D%E3%80%81%E8%A1%A8%E6%A0%BC"><span class="toc-number">9.</span> <span class="toc-text">九、表格</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8D%81%E3%80%81%E5%85%B6%E4%BB%96"><span class="toc-number">10.</span> <span class="toc-text">十、其他</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/10/21/aishiyongbiji/" title="ai使用心得">ai使用心得</a><time datetime="2024-10-21T15:25:49.704Z" title="发表于 2024-10-21 23:25:49">2024-10-21</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/10/05/vimbiji/" title="vim使用笔记——蛋老师视频总结">vim使用笔记——蛋老师视频总结</a><time datetime="2024-10-04T16:13:40.000Z" title="发表于 2024-10-05 00:13:40">2024-10-05</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/08/31/mdyufa/" title="MarkDown语法笔记">MarkDown语法笔记</a><time datetime="2024-08-31T14:31:02.000Z" title="发表于 2024-08-31 22:31:02">2024-08-31</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/08/31/pwnxuexirumen/" title="pwn学习心得">pwn学习心得</a><time datetime="2024-08-31T07:27:25.000Z" title="发表于 2024-08-31 15:27:25">2024-08-31</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/08/11/hexoxiebokexuzhi/" title="用vscode写hexo博客">用vscode写hexo博客</a><time datetime="2024-08-10T16:47:41.000Z" title="发表于 2024-08-11 00:47:41">2024-08-11</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2024 By Epochlcc</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=4.13.0"></script></div></div></body></html>
